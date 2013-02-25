@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #111;
+}
+
+.content, .panel {
+  height: 768px;
+  overflow: hidden;
+  width: 1024px;
+}
+
+.content {
+  margin: 0px auto;
+  position: relative;
+}
+
+.panels {
+  font-size: 0px;
+  height: 768px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+
+.panel {
+  display: inline-block;
+  position: relative;
+}
+
+.post {
+  background: url(/images/TimberMain-003.jpg) no-repeat 0px 0px;
+}
+
+.book {
+  background: url(/images/TimberMain-003.jpg) no-repeat -1024px 0px;
+}
+
+.cookies {
+  background: url(/images/TimberMain-003.jpg) no-repeat -2048px 0px;
+}
+
