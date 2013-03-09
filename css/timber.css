@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ClarenBd';
+  src: url('/css/clarenbd.ttf');
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -43,4 +48,231 @@ body {
 .cookies {
   background: url(/images/TimberMain-003.jpg) no-repeat -2048px 0px;
 }
+
+.panel > div {
+  height: 768px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1024px;
+}
+
+.panel > div * {
+  font-size: 10px;
+  position: absolute;
+}
+
+.contact {
+  left: 597px;
+  top: 21px;
+}
+
+.post-cards {
+  pointer-events: none;
+  left: 20px;
+  top: 0px;
+}
+
+.lined-paper {
+  background: url(/images/LinedPaper-001.png);
+  height: 384px;
+  left: 86px;
+  max-width:377px;
+  position: relative;
+  top: 182px;
+  width: 377px;
+}
+
+.red-tab {
+  left: 30px;
+  top: 495px;
+}
+
+.lars {
+  left: 402px;
+  top: 300px;
+}
+
+.woods {
+  pointer-events: none;
+}
+
+.cones {
+  left: 643px;
+  top: 70px;
+}
+
+.panel > div .videos {
+  background: url(/images/Truck-NewCorners.png);
+  left: 360px;
+  height: 267px;
+  position: relative;
+  top: 443px;
+  width: 299px;
+}
+
+.videos .corners {
+  left: 25px;
+  top: 29px;
+}
+
+.philo {
+  left: 20px;
+  top: 219px;
+}
+
+.philo.text-2, .philo.text-3, .philo.text-4 {
+  display: none;
+  font-size: 14px;
+}
+
+pre, label, input, textarea {
+  color: #3b2207;
+  font-family: 'ClarenBd';
+  letter-spacing: 1px;
+}
+
+.trees-icon {
+  background: url(/images/TreesIcon_Black-001.png);
+  height: 29px;
+  width: 36px;
+  right: 100px;
+  top: 332px;
+}
+
+.trees-icon:hover {
+  background: url(/images/TreesIcon_Red-001.png);
+}
+
+.timber-icon {
+  background: url(/images/TimberIcon_Black-001.png);
+  height: 30px;
+  width: 39px;
+  right: 60px;
+  top: 331px;
+}
+
+.timber-icon:hover {
+  background: url(/images/TimberIcon_Red-001.png);
+}
+
+.pile-icon {
+  background: url(/images/PileIcon_Black-001.png);
+  height: 34px;
+  width: 32px;
+  right: 23px;
+  top: 326px;
+}
+
+.pile-icon:hover {
+  background: url(/images/PileIcon_Red-001.png);
+}
+
+.contact-card {
+  background: url(/images/ContactCard-001.png);
+  display: none;
+  height: 479px;
+  left: 138px;
+  top: 150px;
+  width: 730px;
+}
+
+.contact-card form, .contact-card form * {
+  display: block;
+  position: relative;
+}
+
+.contact-card form {
+  margin-top: 104px;
+  margin-left: 34px;
+  width: 245px;
+}
+
+.contact-card form * {
+  margin-bottom: 10px;
+}
+
+.contact-card form input[type=text] {
+  width: 100%;
+  height: 20px;
+}
+
+.contact-card form textarea {
+  height: 100px;
+  width: 100%; 
+}
+
+.contact-card form label {
+  font-size: 14px;
+}
+
+.contact-card form button {
+  background: url('/images/SendButton_Black-001.png');
+  border: 0px;
+  float: right;
+  height: 35px;
+  width: 48px;
+}
+
+.contact-card form button:hover {
+  background: url('/images/SendButton_Red-001.png');
+}
+
+#flipbook {
+  width: 1002px;
+  height: 675px;
+  margin-top: 43px;
+  margin-left: -20px;
+}
+
+#flipbook .page {
+  width: 1002px;
+  height: 675px;
+  font-size:20px;
+  background: url(/images/Page1-001.jpg);
+}
+
+#flipbook .even {
+  background: url(/images/Page1-002.jpg);
+}
+
+
+#flipbook .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+}
+
+#flipbook .page .page-content {
+  padding: 43px;
+  position: relative;
+  width: 441px;
+}
+
+#flipbook .page .page-content pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+#flipbook .page .page-content * {
+  position: relative;
+}
+
+#flipbook .page .page-content h1 {
+  color: #3b2207;
+  font-family: 'ClarenBd';
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.awards-pubs, .news-events {
+  top: 180px;
+  left: 20px;
+}
+
 
